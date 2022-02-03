@@ -24,13 +24,14 @@ header ul li {
   margin-right: 10px;
 }
 
-section {
+.introduction {
   padding: 5%;
   background-color: #f8f0fb;
+  line-height: 1.6;
 }
 
-img {
-  border: 5px solid #8075ff;
+#logo {
+  border: none;
 }
 
 h1,
@@ -66,6 +67,10 @@ button {
   color: #fff;
 }
 
+button:hover:focus {
+  background-color: hotpink;
+}
+
 footer {
   background-color: #211a1d;
   color: #ffffff;
@@ -75,9 +80,6 @@ footer {
   justify-content: space-between;
 }
 
-.introduction {
-}
-
 #badge {
   height: 120px;
   width: 120px;
@@ -85,7 +87,7 @@ footer {
   border-radius: 50%;
   display: inline-block;
   position: fixed;
-  bottom: 20px;
+  bottom: 304px;
   right: 20px;
 
   display: flex;
@@ -96,6 +98,8 @@ footer {
 
 #badge:hover {
   background-color: yellow;
+  transition: width 2s;
+  width: 150px;
 }
 
 #badge p {
@@ -105,28 +109,57 @@ footer {
 
 .image-container img {
   vertical-align: top;
-  border: 5px solid #747c92;
 }
 
-.image-container img:first-of-type {
-  vertical-align: bottom;
+#bear1 {
+  border: 5px solid #da70d6;
+}
+
+#bear2 {
+  border: 5px solid #6320ee;
+}
+
+#bear3 {
+  border: 5px solid purple;
 }
 
 .tigers {
-  background-color: #0b3c49;
+  background-color: #da70d6;
   color: #f0e100;
 }
 
 .giraffe {
-  background-color: #465775;
-  color: #56e39f;
+  background-color: #483c46;
 }
 
-.giraffe h2 {
-  color: #ef6f6c;
+.giraffe-title {
+  color: #f4743b;
+}
+
+.giraffe p {
+  color: #beee62;
+}
+
+#first-p {
+  font-size: larger;
+}
+
+.penguin {
+  background-color: #da70d6;
+}
+
+.penguin p {
+  color: #f0e100;
 }
 
 .card {
+  display: inline-block;
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  width: 30%;
+  border: 1px solid black;
+  border-radius: 10px;
   display: inline-block;
   background-color: white;
   padding: 20px;
@@ -151,6 +184,10 @@ footer {
   margin-bottom: 10px;
 }
 
+.news h2 {
+  text-align: center;
+}
+
 /*Education*/
 
 .education {
@@ -166,6 +203,7 @@ footer {
   background-color: rgba(255, 255, 255, 0.75);
   padding: 50px;
   max-width: 400px;
+  border-radius: 25px;
 }
 
 .education-container h3,
@@ -188,8 +226,12 @@ footer {
   color: #ff7f11;
 }
 
+.membership p {
+  width: 700px;
+  margin: 100px;
+}
 /*Programs*/
 
 .programs .card {
-  display: block;
+  display: inline-block;
 }
