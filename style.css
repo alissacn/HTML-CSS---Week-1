@@ -1,5 +1,7 @@
 * {
   font-family: sans-serif;
+  line-height: 1.6;
+  padding: 5px;
 }
 
 header {
@@ -25,9 +27,8 @@ header ul li {
 }
 
 .introduction {
-  padding: 5%;
-  background-color: #f8f0fb;
-  line-height: 1.6;
+  background-color: #ffffff;
+  text-align: left;
 }
 
 #logo {
@@ -57,6 +58,7 @@ h3 {
 }
 
 button {
+  font-size: large;
   display: inline-block;
   border-radius: 3px;
   cursor: pointer;
@@ -67,8 +69,9 @@ button {
   color: #fff;
 }
 
-button:hover:focus {
-  background-color: hotpink;
+button:hover,
+button:focus {
+  background-color: #f0e100;
 }
 
 footer {
@@ -87,13 +90,8 @@ footer {
   border-radius: 50%;
   display: inline-block;
   position: fixed;
-  bottom: 304px;
+  bottom: 560px;
   right: 20px;
-
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column;
 }
 
 #badge:hover {
@@ -111,23 +109,34 @@ footer {
   vertical-align: top;
 }
 
+/*Bears*/
+.bears {
+  background-color: #f8f0fb;
+}
+
 #bear1 {
-  border: 5px solid #da70d6;
+  border: 5px solid #000080;
 }
 
 #bear2 {
-  border: 5px solid #6320ee;
+  border: 5px solid #0047ab;
 }
 
 #bear3 {
-  border: 5px solid purple;
+  border: 5px solid #0000cd;
 }
 
+/*Tigers*/
 .tigers {
-  background-color: #da70d6;
+  background-color: #dda0dd;
   color: #f0e100;
 }
 
+#ul-tiger {
+  padding: 20px;
+}
+
+/*Giraffe*/
 .giraffe {
   background-color: #483c46;
 }
@@ -144,33 +153,38 @@ footer {
   font-size: larger;
 }
 
-.penguin {
-  background-color: #da70d6;
+/*Penguin*/
+#penguin {
+  background-color: #dda0dd;
 }
 
-.penguin p {
-  color: #f0e100;
+#penguin p {
+  color: black;
+}
+
+#penguin-image {
+  border: 5px solid black;
+}
+
+.news {
+  background-color: #f8f0fb;
 }
 
 .card {
   display: inline-block;
   background-color: white;
-  padding: 20px;
-  margin: 10px;
-  width: 30%;
+  padding: 10px;
+  margin: 20px;
+  width: 300px;
   border: 1px solid black;
   border-radius: 10px;
   display: inline-block;
-  background-color: white;
-  padding: 20px;
-  margin: 10px;
-  width: 30%;
-  border: 1px solid black;
-  border-radius: 10px;
+  text-align: center;
 }
 
 .card h4 {
   margin-bottom: 1em;
+  margin-top: 5px;
 }
 
 .card a {
@@ -226,12 +240,17 @@ footer {
   color: #ff7f11;
 }
 
-.membership p {
+#membership-p {
   width: 700px;
-  margin: 100px;
+  margin: 0px 10px 30px 390px;
 }
+
 /*Programs*/
+.programs {
+  background-color: #f8f0fb;
+}
 
 .programs .card {
   display: inline-block;
+  vertical-align: bottom;
 }
