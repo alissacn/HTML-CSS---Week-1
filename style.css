@@ -90,8 +90,12 @@ footer {
   border-radius: 50%;
   display: inline-block;
   position: fixed;
-  bottom: 560px;
+  bottom: 270px;
   right: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
 }
 
 #badge:hover {
