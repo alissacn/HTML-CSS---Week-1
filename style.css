@@ -88,11 +88,10 @@ footer {
   width: 120px;
   background-color: #bbb;
   border-radius: 50%;
-  display: inline-block;
+  display: block;
   position: fixed;
-  bottom: 270px;
+  top: 5%;
   right: 20px;
-  display: flex;
   justify-content: center;
   align-content: center;
   flex-direction: column;
@@ -245,8 +244,8 @@ footer {
 }
 
 #membership-p {
-  width: 700px;
-  margin: 5px 10px 30px 130px;
+  width: 650px;
+  margin: 5px 10px 30px 410px;
 }
 
 /*Programs*/
