@@ -1,6 +1,5 @@
 * {
   font-family: sans-serif;
-  line-height: 1.6;
   padding: 5px;
 }
 
@@ -33,6 +32,11 @@ header ul li {
 
 #logo {
   border: none;
+}
+
+p {
+  line-height: 1.6;
+  letter-spacing: 1px;
 }
 
 h1,
@@ -131,8 +135,12 @@ footer {
 
 /*Tigers*/
 .tigers {
-  background-color: #dda0dd;
+  background-color: #0b3c49;
   color: #f0e100;
+}
+
+#tiger-h2 {
+  color: blanchedalmond;
 }
 
 #ul-tiger {
@@ -173,6 +181,10 @@ footer {
   background-color: #f8f0fb;
 }
 
+.news h2 {
+  text-align: center;
+}
+
 .card {
   display: inline-block;
   background-color: white;
@@ -199,10 +211,6 @@ footer {
   opacity: 0.5;
   display: inline-block;
   margin-bottom: 10px;
-}
-
-.news h2 {
-  text-align: center;
 }
 
 /*Education*/
@@ -244,8 +252,8 @@ footer {
 }
 
 #membership-p {
-  width: 650px;
-  margin: 5px 10px 30px 410px;
+  max-width: 700px;
+  margin: auto;
 }
 
 /*Programs*/
